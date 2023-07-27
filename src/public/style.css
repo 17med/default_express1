@@ -1,0 +1,88 @@
+/* Apply black background */
+body {
+    background-color: #1a1a1a; /* Black background color */
+    color: #ffffff; /* White text color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Optionally, you can add some styling to the container element */
+.center-content {
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Customize h1 styles for the neon effect */
+.neon-effect {
+
+    color: #ffffff; /* White text color */
+    animation: neonGlow 2s infinite;
+}
+.neon-effectRed {
+
+    color: #ff0000; /* White text color */
+    animation: neonGlowRed 2s infinite;
+}
+.neon-effectGreen {
+
+    color: #00ff04; /* White text color */
+    animation: neonGlowGreen 2s infinite;
+}
+
+/* Customize p styles */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Optionally, you can style other elements to match the neon theme */
+/* For example, if you have links: */
+a {
+    color: #00ff99;
+    text-decoration: none;
+}
+a:hover {
+    color: #00ff99;
+    text-decoration: underline;
+}
+
+@keyframes neonGlow {
+    0%, 100% {
+        color: #ffffff; /* White text color */
+    }
+    50% {
+        color: #1a1a1a; /* Black text color */
+    }
+}
+
+@keyframes neonGlow {
+    0%, 100% {
+        color: #ffffff; /* White text color */
+    }
+    50% {
+        color: #1a1a1a; /* Black text color */
+    }
+}
+
+@keyframes neonGlowGreen {
+    0%, 100% {
+        color: #00ff04; /* White text color */
+    }
+    50% {
+        color: #1a1a1a; /* Black text color */
+    }
+}
+@keyframes neonGlowRed {
+    0%, 100% {
+        color: #ff0000; /* White text color */
+    }
+    50% {
+        color: #1a1a1a; /* Black text color */
+    }
+}
